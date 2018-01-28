@@ -1,0 +1,21 @@
+{
+  "name": "www.aryaag.com",
+  "description": "A website so personal, it's MEAN.",
+  "scripts": {
+  },
+  "env": {
+    "MONGODB_URI": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "mongolab"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
