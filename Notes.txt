@@ -1,0 +1,5 @@
+Global Changes / Requisites:
+1. AngularCli global install
+
+Local Changes:
+1. npm install mongodb express body-parser --save
